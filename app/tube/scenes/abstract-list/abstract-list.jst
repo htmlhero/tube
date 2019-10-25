@@ -1,0 +1,12 @@
+{{$ tube.scenes.templates.abstractList.abstractList }}
+
+<div class="s-abstract-list__header">
+	<div class="s-abstract-list__text">
+		<span class="s-abstract-list__logo">Tube &mdash;</span>
+		<span class="s-abstract-list__title" data-export-id="{{@title}}"></span>
+	</div>
+	{{% zb.ui.widgets.HelpBar, {}, helpBar }}
+</div>
+<div class="s-abstract-list__content">
+	{{% tube.widgets.ItemList, {}, list }}
+</div>

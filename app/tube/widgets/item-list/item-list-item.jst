@@ -1,0 +1,28 @@
+{{$ tube.widgets.templates.itemListItem.itemListItem }}
+
+{{* this.type string }}
+{{* this.title string }}
+{{* this.coverUrl (string|undefined) }}
+{{* this.duration (string|undefined) }}
+{{* this.views (string|undefined) }}
+
+<div class="w-item-list-item _{{= this.type }}">
+	<div class="w-item-list-item__wrapper">
+		<div class="w-item-list-item__stub">
+			{{ if (this.coverUrl) { }}
+				<div class="w-item-list-item__cover" style="background-image: url({{- this.coverUrl }})"></div>
+			{{ } }}
+			{{ const duration = this.duration; }}
+			{{ if (duration) { }}
+				<div class="w-item-list-item__duration">{{- duration }}</div>
+			{{ } }}
+		</div>
+		<div class="w-item-list-item__info">
+			<div class="w-item-list-item__title">{{- this.title }}</div>
+			{{ const views = this.views; }}
+			{{ if (views) { }}
+				<div class="w-item-list-item__views">{{- views }} views</div>
+			{{ } }}
+		</div>
+	</div>
+</div>

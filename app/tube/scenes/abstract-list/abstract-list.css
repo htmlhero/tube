@@ -1,0 +1,45 @@
+/* AbstractList scene
+*******************************/
+
+.s-abstract-list {
+	background-color: #151515;
+}
+	.s-abstract-list__header {
+		background-color: #2d2d2d;
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+	}
+		.s-abstract-list__header .w-zbui-help-bar {
+			position: absolute;
+			top: 5px;
+			right: 17px;
+			left: 0;
+		}
+	.s-abstract-list__text {
+		font-size: 28px;
+		line-height: 62px;
+		margin-left: 40px;
+	}
+	.s-abstract-list__logo {
+		color: #5f5f5f;
+		display: inline-block;
+	}
+		.s-abstract-list__logo:first-letter {
+			color: #af1820;
+		}
+	.s-abstract-list__content {
+		position: absolute;
+		top: 62px;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+		.s-abstract-list__content .w-item-list {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+		}

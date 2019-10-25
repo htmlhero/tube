@@ -1,0 +1,10 @@
+/* HelpBar widget
+*******************************/
+
+.w-zbui-help-bar {
+	position: relative;
+	padding: 12px 23px;
+}
+	.w-zbui-help-bar .w-zbui-help-bar-item {
+		margin-left: 20px;
+	}

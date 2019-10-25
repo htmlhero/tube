@@ -1,0 +1,8 @@
+/* Throbber widget
+*******************************/
+
+.w-zbui-throbber {
+	width: 58px !important;
+	height: 58px !important;
+	background-image: url(img/throbber.png) !important;
+}

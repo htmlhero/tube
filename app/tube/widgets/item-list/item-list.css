@@ -1,0 +1,19 @@
+/* ItemList widget
+*******************************/
+
+.w-item-list {}
+	.w-item-list .w-zbui-base-list__wrap {
+		height: 560px;
+		position: absolute;
+		top: 0;
+		right: 20px;
+		left: 20px;
+	}
+	.w-item-list .w-zbui-base-list__slider {
+		overflow: hidden;
+	}
+	.w-item-list .w-item-list-item {
+		width: 310px;
+		height: 280px;
+		float: left;
+	}
